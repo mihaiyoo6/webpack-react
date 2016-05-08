@@ -55,7 +55,7 @@ if(TARGET === 'start' || !TARGET) {
       // parse host and port from env so this is easy
       // to customize
       host: process.env.HOST,
-      port: process.env.PORT
+      port: '2222'//process.env.PORT
     },
     plugins: [
       new webpack.HotModuleReplacementPlugin(),
